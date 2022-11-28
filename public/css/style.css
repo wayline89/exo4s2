@@ -6,6 +6,36 @@ li:nth-child(n+2):nth-child(-n+3):hover {
   text-decoration: underline;
 }
 
+span+p {
+  background-color: green;
+}
 
 
+li:nth-child(n) {
+  border-left: 5px solid red;
+}
 
+
+section:nth-child(even) {
+  background-color: yellowgreen;
+}
+
+section:nth-child(7):hover {
+  font-size: 32px;
+}
+
+input:focus {
+  background-color: black;
+  color: white;
+}
+
+a[href*="./p"] {
+  border-top: solid red 1px;
+}
+
+section:nth-child(4),
+:nth-child(7) {
+
+  background-color: black;
+  color: white;
+}
